@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-Wall
 
 lab_0: lab_0.o
-	cc -o lab0 lab_0.o
+	cc -o lab_0 lab_0.o
 lab_0.o: lab_0.c
 	cc -c lab_0.c
 
